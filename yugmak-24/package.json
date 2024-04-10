@@ -1,8 +1,10 @@
 {
-  "name": "yugmak-24",
+  "name": "@your-scope/yugmak-24",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -38,5 +40,10 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.3"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC"
 }

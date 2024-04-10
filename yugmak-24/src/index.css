@@ -2968,24 +2968,24 @@ a {
 .about_rotate {
   width: 130%;
   height: 100%;
-  position: absolute;
-  top: 0;
+  position: relative;
+  top: 20;
   left: 50%;
   overflow: hidden;
-  transform: rotate(-4deg)translate(-50%);
+  transform: rotate(-2deg)translate(-50%);
 }
 
 .about_rotate_background {
-  width: 78%;
+  width: 100%;
   height: 100%;
-  background-image: url("https://assets-global.website-files.com/5d36b9200eef9b397822a84d/633f0b08c39ec424f375f4d6_about_background-22.jpg");
+  background-image: url("Assets/Images/about.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   top: 0;
   left: 50%;
-  transform: rotate(3deg)translate(-50%);
+  transform: rotate(0deg)translate(-50%);
 }
 
 .about_us_div {
@@ -3008,12 +3008,13 @@ a {
   padding-right: 24px;
   display: block;
   position: relative;
+  top: -150px;
 }
 
 .h2_home {
   margin-top: 24px;
   margin-bottom: 16px;
-  font-size: 14px;
+  font-size: 22px;
 }
 
 .floating_projects_container {
@@ -4760,7 +4761,7 @@ p {
 .h2_home {
   margin-top: 24px;
   margin-bottom: 16px;
-  font-size: 14px;
+  font-size: 22px;
 }
 
 .big_headers_smaller {
