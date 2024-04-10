@@ -1,6 +1,6 @@
 import React from "react";
 
-const Day2 = () => {
+const About = () => {
   return (
     <div>
       <div className="section_about_us">
@@ -30,4 +30,4 @@ const Day2 = () => {
   );
 };
 
-export default Day2;
+export default About;

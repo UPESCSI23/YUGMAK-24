@@ -6,12 +6,6 @@ const Footer = () => {
         <div className="footer_text">
           © 2024 UPES-CSI. All rights reserved.
         </div>
-        <a className="footer_link hide" href="#">
-          Terms &amp; Conditions
-        </a>
-        <a className="footer_link hide" href="#">
-          Privacy Policy
-        </a>
         <a className="footer_link" href="/privacy-policy">
           Privacy Policy
         </a>
