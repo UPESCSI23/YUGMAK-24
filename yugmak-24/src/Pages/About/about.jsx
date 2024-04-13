@@ -14,11 +14,12 @@ const About = () => {
             <h2 className="h2_home opacity-100 transform translate-x-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-0">
               About Us{" "}
             </h2>
+            <h3 className="big_headers_smaller1 opacity-100 transform translate-x-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-0">
+            YUGMAK, an umbrella event, offers a blend of fun and technical activities under the theme "Imaginarium".            </h3>
             <p className="opacity-100 transform translate-x-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-0">
-            Just when you thought UPES-CSI was only a Technical Chapter, we bring for you "Yugmak". A 3-day event filled with all fun activities like Bidding Battle, Clickathon, Comic Chaos and many many more, this event unlike all other events invites participants to engage in photo clicking competitions, pitch business ideas, participate in caricature making which helps in an all-round development beyond the technical dimensions.
-            </p>
+            YUGMAK, an annual flagship event by UPES-CSI, is set to ignite a journey filled with technical events, enlightening sessions, and culminating in a thrilling hackathon. Under the theme "Imaginarium: Blurring the Lines of Reality" YUGMAK promises two days of immersive learning and exploration, aimed at fostering innovation and collaboration among students.            </p>
             <a
-              href="/projects/the-bastard-son-and-the-devil-himself"
+              href="https://upescsi.in/"
               className="text-link home opacity-100 transform translate-x-0.1224px scale-100 rotate-x-0 rotate-y-0 rotate-z-0"
             >
               Learn More <span className="fa"></span>
