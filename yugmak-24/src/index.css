@@ -3026,9 +3026,9 @@ a {
   justify-content: space-between;
   align-items: center;
   display: flex;
-  position: absolute;
-  bottom: -365px;
-  right: 16px;
+  position: relative;
+  bottom: -100px;
+  left: 40vw;
 }
 
 .fc_col_1 {
