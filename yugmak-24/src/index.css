@@ -2657,6 +2657,7 @@ a {
   justify-content: flex-start;
   align-items: center;
   display: flex;
+  pointer-events: auto;
 }
 
 .mid_line_menu_2 {
@@ -2978,7 +2979,7 @@ a {
 .about_rotate_background {
   width: 100%;
   height: 100%;
-  background-image: url("Assets/Images/about.jpg");
+  background-image: url("Assets/Images/about_us.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3166,6 +3167,15 @@ a {
   top: -100px;
   overflow: hidden;
 }
+.section_home_project_9 {
+  z-index: 9;
+  height: auto;
+  padding-top: 12vw;
+  padding-bottom: 10vw;
+  position: relative;
+  top: -100px;
+  overflow: hidden;
+}
 .section_home_project_8 {
   z-index: 9;
   height: auto;
@@ -3197,6 +3207,18 @@ a {
   left: 50%;
   transform: rotate(2deg)translate(-50%);
 }
+.project_9_rotate_background {
+  width: 78%;
+  height: 111%;
+  background-image: url("Assets/Images/gaming2.jpeg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -4vw;
+  left: 50%;
+  transform: rotate(2deg)translate(-50%);
+}
 .project_8_rotate_background {
   width: 78%;
   height: 111%;
@@ -3213,7 +3235,7 @@ a {
 .project_6_rotate_background {
   width: 78%;
   height: 111%;
-  background-image: url("Assets/Images/project7.jpeg");
+  background-image: url("Assets/Images/WhatsApp\ Image\ 2024-04-11\ at\ 22.11.51.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3236,7 +3258,7 @@ a {
 .project_8_rotate_background {
   width: 78%;
   height: 111%;
-  background-image: url("Assets/Images/diablo\ hell.jpeg");
+  background-image: url("Assets/Images/city2.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3246,6 +3268,16 @@ a {
 }
 
 .project_2_rotate {
+  width: 130%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, var(--background-blue), var(--background-blue));
+  position: relative;
+  top: 20px;
+  left: 50%;
+  overflow: hidden;
+  transform: rotate(-2deg)translate(-50%);
+}
+.project_9_rotate {
   width: 130%;
   height: 100%;
   background-image: linear-gradient(to bottom, var(--background-blue), var(--background-blue));
@@ -3276,6 +3308,20 @@ a {
   transform: rotate(-2deg)translate(-50%);
 }
 .container_project_2 {
+  z-index: 3;
+  width: 100%;
+  max-width: 1040px;
+  min-height: 50px;
+  justify-content: space-between;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+  position: relative;
+}
+.container_project_9 {
   z-index: 3;
   width: 100%;
   max-width: 1040px;
@@ -3405,6 +3451,32 @@ a {
   display: none;
   position: absolute;
 }
+.fading-images {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.fading-images img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: scale(0.95); /* Initial scale to create zoom effect */
+  transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out; /* Adjust transition timing */
+}
+
+.fading-images img.visible {
+  opacity: 1;
+  transform: scale(1); /* Scale to normal size */
+}
+
+.fading-images img.hidden {
+  opacity: 0;
+}
+
 
 .section_studio_intro {
   z-index: 0;
@@ -4047,11 +4119,20 @@ a {
   .section_home_project_2 {
     padding-bottom: 7vw;
   }
+  .section_home_project_9 {
+    padding-bottom: 7vw;
+  }
   .section_home_project_8 {
     padding-bottom: 7vw;
   }
 
   .project_2_rotate_background {
+    height: 111%;
+    background-position: 50%;
+    background-size: cover;
+    top: -4vw;
+  }
+  .project_9_rotate_background {
     height: 111%;
     background-position: 50%;
     background-size: cover;
@@ -4071,6 +4152,9 @@ a {
   }
 
   .project_2_rotate {
+    top: 19px;
+  }
+  .project_9_rotate {
     top: 19px;
   }
   .project_8_rotate {
@@ -4303,6 +4387,7 @@ a {
 
   .menu_control {
     flex: none;
+    pointer-events: auto;
   }
 
   .slider_icon {
@@ -4414,6 +4499,13 @@ a {
     padding-top: 86px;
     padding-bottom: 24px;
   }
+  .section_home_project_9 {
+    height: auto;
+    max-height: none;
+    min-height: 0;
+    padding-top: 86px;
+    padding-bottom: 24px;
+  }
   .section_home_project_8 {
     height: auto;
     max-height: none;
@@ -4423,6 +4515,10 @@ a {
   }
 
   .project_2_rotate_background {
+    height: 110%;
+    background-size: cover;
+  }
+  .project_9_rotate_background {
     height: 110%;
     background-size: cover;
   }
@@ -4436,6 +4532,12 @@ a {
   }
 
   .container_project_2 {
+    position: relative;
+    bottom: 0;
+    left: 0%;
+    transform: none;
+  }
+  .container_project_9 {
     position: relative;
     bottom: 0;
     left: 0%;
@@ -4546,6 +4648,12 @@ a {
   }
 
   .container_project_2-home {
+    position: relative;
+    bottom: 0;
+    left: 0%;
+    transform: none;
+  }
+  .container_project_9-home {
     position: relative;
     bottom: 0;
     left: 0%;
@@ -4692,6 +4800,7 @@ a {
 
   .menu_control {
     justify-content: flex-end;
+    pointer-events: auto;
   }
 
   .projects_menu_container {
@@ -4741,12 +4850,19 @@ a {
     padding-top: 120px;
     padding-bottom: 88px;
   }
+  .section_home_project_9 {
+    padding-top: 120px;
+    padding-bottom: 88px;
+  }
   .section_home_project_8 {
     padding-top: 120px;
     padding-bottom: 88px;
   }
 
   .project_2_rotate_background {
+    background-position: 50%, 50% 0;
+  }
+  .project_9_rotate_background {
     background-position: 50%, 50% 0;
   }
   .project_8_rotate_background {
@@ -4948,7 +5064,7 @@ a {
 .project_7_rotate_background {
   width: 78%;
   height: 105%;
-  background-image: url("Assets/Images/sylvanas.jpeg");
+  background-image: url("Assets/Images/fashion.jpeg");
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4991,6 +5107,21 @@ p {
     line-height: 26px;
 }
 .container_project_2-home {
+  z-index: 3;
+  width: 100%;
+  max-width: 1080px;
+  min-height: 50px;
+  justify-content: space-between;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: block;
+  position: relative;
+}
+.container_project_9-home {
   z-index: 3;
   width: 100%;
   max-width: 1080px;
@@ -5064,7 +5195,13 @@ p {
   font-weight: 300;
   line-height: 40px;
 }
-
+.big_headers_smaller1 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+}
 .big_headers_smaller.no-top-margin {
   margin-top: 0;
 }

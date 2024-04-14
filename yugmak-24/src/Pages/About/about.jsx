@@ -24,7 +24,7 @@ const About = () => {
               development beyond the technical dimensions.
             </p>
             <a
-              href="/projects/the-bastard-son-and-the-devil-himself"
+              href="https://upescsi.in/"
               className="text-link home opacity-100 transform translate-x-0.1224px scale-100 rotate-x-0 rotate-y-0 rotate-z-0"
             >
               Learn More <span className="fa"></span>

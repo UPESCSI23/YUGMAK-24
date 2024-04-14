@@ -24,7 +24,7 @@ const Landing = () => {
           key={index}
           src={image}
           alt={`${index}`}
-          className={`absolute transition-opacity duration-1000 ${
+          className={`absolute h-full transition-opacity duration-1000 ${
             index === currentIndex ? "opacity-100" : "opacity-0"
           }`}
           style={{

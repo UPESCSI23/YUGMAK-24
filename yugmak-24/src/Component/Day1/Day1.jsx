@@ -11,12 +11,12 @@ const Day1 = () => {
           </div>
         </div>
         <div className="container_project_6-home clearfix">
-          <div className="project_6_div">
+          <div className="project_1_div">
             <h2 className="h2_home opacity-100 transform translate-x-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-0">
-            NOSTALGIA{" "}
+            DAY-1{" "}
             </h2>
             <h3 className="big_headers_smaller opacity-100 transform translate-x-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-0">
-            Nostalgia, aims to re-kindle the childhood joy of keeping up with Cartoons, Fictional Series, and Disney Series thereby allowing the students to wear their nostalgic shoes again.{" "}
+            NOSTALGIA{" "}
               <span className="wrap not-mob"></span>
             </h3>
             <p className="opacity-100 transform translate-x-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-0">
@@ -26,7 +26,7 @@ const Day1 = () => {
               href="/projects/the-bastard-son-and-the-devil-himself"
               className="text-link home opacity-100 transform translate-x-0.1224px scale-100 rotate-x-0 rotate-y-0 rotate-z-0"
             >
-              Register Now <span className="fa"></span>
+              Read More <span className="fa"></span>
             </a>
             
           </div>
@@ -40,7 +40,7 @@ const Day1 = () => {
           </div>
         </div>
         <div className="container_project_2-home clearfix">
-          <div className="project_1_div">
+          <div className="project_8_div">
             <h2 className="h2_home opacity-90 transform translate-y-[10.9314px]">
             Fashion Show
             </h2>
@@ -72,7 +72,7 @@ Venue: Old Amphitheatre
           </div>
         </div>
         <div className="container_project_8-home clearfix">
-          <div className="project_8_div">
+          <div className="project_1_div">
             <h2 className="h2_home opacity-100 transform translate-x-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-0">
             Asset Bidding War
             </h2>
@@ -94,6 +94,35 @@ swords, objects, merch etc. The participants have to guess the price and bid on 
           </div>
         </div>
       </div>
+      <div className="section_home_project_9 opacity-100">
+        <div className="rotation_hide_container">
+          <div className="project_9_rotate">
+            <div className="project_9_rotate_background"></div>
+ 
+            <div className="gradient_cover"></div>
+          </div>
+        </div>
+        <div className="container_project_9-home clearfix">
+          <div className="project_1_div">
+            <h2 className="h2_home opacity-100 transform translate-x-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-0">
+              DAY 2
+            </h2>
+            <h3 className="big_headers_smaller opacity-100 transform translate-x-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-0">
+            BashItUp.{" "}
+            </h3>
+            <p className="opacity-100 transform translate-x-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-0">
+            BashItUp on Day 2 is a vibrant fusion of gaming and tech, offering a range of experiences from thrilling gaming tournaments to stimulating coding challenges. Participants can dive into diverse gaming genres, showcase their coding skills, and explore the latest in technology through interactive workshops and hackathons. It's a day packed with excitement, innovation, and camaraderie, catering to the tech-savvy and playful alike.
+            </p>
+            <a
+              href="/projects/the-bastard-son-and-the-devil-himself"
+              className="text-link home opacity-100 transform translate-x-0.1224px scale-100 rotate-x-0 rotate-y-0 rotate-z-0"
+            >
+              Read More <span className="fa"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      
     </div>
       );
 };
