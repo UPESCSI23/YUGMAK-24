@@ -21,5 +21,4 @@
 
 .fading-images img.hidden {
   opacity: 0;
-  /* Keep the transform as it is at 1.05 when hidden */
 }
